@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -39,6 +39,7 @@ public class EnemyHealth : MonoBehaviour
         isDead = true;
         opponentController.opponentHasDied();
         // Destroy(gameObject);
+        gameObject.GetComponent<CapsuleCollider>().enabled = false;
         GetComponent<Animator>().SetTrigger("die");
     }
 }
