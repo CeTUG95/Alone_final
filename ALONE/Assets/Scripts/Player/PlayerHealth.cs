@@ -11,8 +11,8 @@ public class PlayerHealth : MonoBehaviour
     public void TakeDamage(float damage)
     {
         lives -= damage;
-        lives--;
-        livesText.text = "Lives: " + lives;
+        // lives--;
+        livesText.text = "HP: " + lives;
 
         if(lives <= 0)
         {
