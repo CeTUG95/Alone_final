@@ -25,4 +25,21 @@ Some impressions of the physical prototype:
     <img src="./docs/physical_prototype/prototyp_bruecke2.jpeg"  width="49%" height="49%">
     <img src="./docs/physical_prototype/prototyp_endboss1.jpeg"  width="49%" height="49%">
 </p>
-<br/>
+<br/><br/>
+Some impressions of the digital prototype:
+<p align="center">
+    <img src="./docs/digital_prototype/prototyp_flaeche_unbeklebt.JPG"  width="49%" height="49%">
+    <img src="./docs/digital_prototype/prototyp_flaeche_geklebt1.JPG"  width="49%" height="49%">
+    <img src="./docs/digital_prototype/prototyp_baum2_ohne_farbe.JPG"  width="49%" height="49%">
+    <img src="./docs/digital_prototype/prototyp_anmalen.JPG"  width="49%" height="49%">
+    <img src="./docs/digital_prototype/prototyp_bemalen1.jpeg"  width="49%" height="49%">
+    <img src="./docs/digital_prototype/prototyp_bemalen2.jpeg"  width="49%" height="49%">
+    <img src="./docs/digital_prototype/prototyp_bemalen3.jpeg"  width="49%" height="49%">
+    <img src="./docs/digital_prototype/prototyp_bemalen4.jpeg"  width="49%" height="49%">
+    <img src="./docs/digital_prototype/prototyp_fertig.jpeg"  width="49%" height="49%">
+    <img src="./docs/digital_prototype/prototyp_player1.jpeg"  width="49%" height="49%">
+    <img src="./docs/digital_prototype/prototyp_munitionsbox_aufsammeln.jpeg"  width="49%" height="49%">
+    <img src="./docs/digital_prototype/prototyp_mehrere_gegner_tot.jpeg"  width="49%" height="49%">
+    <img src="./docs/digital_prototype/prototyp_bruecke2.jpeg"  width="49%" height="49%">
+    <img src="./docs/digital_prototype/prototyp_endboss1.jpeg"  width="49%" height="49%">
+</p>
