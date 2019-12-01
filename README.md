@@ -28,10 +28,10 @@ Some impressions of the physical prototype:
 <br/><br/>
 Some impressions of the digital prototype:
 <p align="center">
-    <img src="./docs/digital_prototype/first_ideas.PNG"  width="49%" height="49%">
-    <img src="./docs/digital_prototype/first_ideas2.PNG"  width="49%" height="49%">
-    <img src="./docs/digital_prototype/zombie_attacking1.PNG"  width="49%" height="49%">
-    <img src="./docs/digital_prototype/zombie_attacking2.PNG"  width="49%" height="49%">
+    <img src="./docs/digital_prototype/first_ideas.png"  width="49%" height="49%">
+    <img src="./docs/digital_prototype/first_ideas2.png"  width="49%" height="49%">
+    <img src="./docs/digital_prototype/zombie_attacking1.png"  width="49%" height="49%">
+    <img src="./docs/digital_prototype/zombie_attacking2.png"  width="49%" height="49%">
     <img src="./docs/digital_prototype/prototyp_bemalen1.jpeg"  width="49%" height="49%">
     <img src="./docs/digital_prototype/prototyp_bemalen2.jpeg"  width="49%" height="49%">
     <img src="./docs/digital_prototype/prototyp_bemalen3.jpeg"  width="49%" height="49%">
