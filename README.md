@@ -22,7 +22,7 @@ Some impressions of the physical prototype:
     <img src="./docs/physical_prototype/prototyp_player1.jpeg"  width="49%" height="49%">
     <img src="./docs/physical_prototype/prototyp_munitionsbox_aufsammeln.jpeg"  width="49%" height="49%">
     <img src="./docs/physical_prototype/prototyp_mehrere_gegner_tot.jpeg"  width="49%" height="49%">
-    <img src="./docs/physical_prototype/prototyp_bruecke1.jpeg"  width="49%" height="49%">
+    <img src="./docs/physical_prototype/prototyp_bruecke2.jpeg"  width="49%" height="49%">
     <img src="./docs/physical_prototype/prototyp_endboss1.jpeg"  width="49%" height="49%">
 </p>
 <br/>
