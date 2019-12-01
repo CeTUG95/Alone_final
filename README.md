@@ -10,21 +10,21 @@ twitter.com/coutdominic
 <br/><br/><br/>
 Some impressions of the physical prototype:
 <p align="center">
-    <img src="./doc/01_MainMenu.png"  width="49%" height="49%">
-    <img src="./doc/02_ChooseCharacter.png"  width="49%" height="49%">
-    <img src="./doc/03_StoryScene01.png"  width="49%" height="49%">
-    <img src="./doc/05_Ghoul01.png"  width="49%" height="49%">
-    <img src="./doc/06_Ghoul02.png"  width="49%" height="49%">
-    <img src="./doc/07_Ghoul03.png"  width="49%" height="49%">
-    <img src="./doc/08_Reward.png"  width="49%" height="49%">
-    <img src="./doc/09_Arenaleiter01.png"  width="49%" height="49%">
-    <img src="./doc/10_Arenaleiter02.png"  width="49%" height="49%">
-    <img src="./doc/11_Arenaleiter03.png"  width="49%" height="49%">
-    <img src="./doc/12_Arenaleiter04.png"  width="49%" height="49%">
-    <img src="./doc/13_Arenaleiter05.png"  width="49%" height="49%">
-    <img src="./doc/14_StoryScene03.png"  width="49%" height="49%">
-    <img src="./doc/15_Tod01.png"  width="49%" height="49%">
-    <img src="./doc/16_Tod02.png"  width="49%" height="49%">
+    <img src="./docs/physical_prototype/prototyp_flaeche_unbeklebt.JPG"  width="49%" height="49%">
+    <img src="./docs/physical_prototype/02_ChooseCharacter.png"  width="49%" height="49%">
+    <img src="./docs/physical_prototype/03_StoryScene01.png"  width="49%" height="49%">
+    <img src="./docs/physical_prototype/05_Ghoul01.png"  width="49%" height="49%">
+    <img src="./docs/physical_prototype/06_Ghoul02.png"  width="49%" height="49%">
+    <img src="./docs/physical_prototype/07_Ghoul03.png"  width="49%" height="49%">
+    <img src="./docs/physical_prototype/08_Reward.png"  width="49%" height="49%">
+    <img src="./docs/physical_prototype/09_Arenaleiter01.png"  width="49%" height="49%">
+    <img src="./docs/physical_prototype/10_Arenaleiter02.png"  width="49%" height="49%">
+    <img src="./docs/physical_prototype/11_Arenaleiter03.png"  width="49%" height="49%">
+    <img src="./docs/physical_prototype/12_Arenaleiter04.png"  width="49%" height="49%">
+    <img src="./docs/physical_prototype/13_Arenaleiter05.png"  width="49%" height="49%">
+    <img src="./docs/physical_prototype/14_StoryScene03.png"  width="49%" height="49%">
+    <img src="./docs/physical_prototype/15_Tod01.png"  width="49%" height="49%">
+    <img src="./docs/physical_prototype/16_Tod02.png"  width="49%" height="49%">
     <img src="./doc/17_Tod03.png"  width="49%" height="49%">
     <img src="./doc/18_Tod04.png"  width="49%" height="49%">
     <img src="./doc/19_GameOver01.png"  width="49%" height="49%">
