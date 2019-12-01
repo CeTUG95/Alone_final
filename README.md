@@ -36,10 +36,12 @@ Some impressions of the digital prototype:
     <img src="./docs/digital_prototype/Zombie_Horde2.jpeg"  width="49%" height="49%">
     <img src="./docs/digital_prototype/tutorial.png"  width="49%" height="49%">
     <img src="./docs/digital_prototype/moving_wall.png"  width="49%" height="49%">
-    <img src="./docs/digital_prototype/prototyp_fertig.jpeg"  width="49%" height="49%">
-    <img src="./docs/digital_prototype/prototyp_player1.jpeg"  width="49%" height="49%">
-    <img src="./docs/digital_prototype/prototyp_munitionsbox_aufsammeln.jpeg"  width="49%" height="49%">
-    <img src="./docs/digital_prototype/prototyp_mehrere_gegner_tot.jpeg"  width="49%" height="49%">
-    <img src="./docs/digital_prototype/prototyp_bruecke2.jpeg"  width="49%" height="49%">
-    <img src="./docs/digital_prototype/prototyp_endboss1.jpeg"  width="49%" height="49%">
+    <img src="./docs/digital_prototype/ammo_box.png"  width="49%" height="49%">
+    <img src="./docs/digital_prototype/document.png"  width="49%" height="49%">
+    <img src="./docs/digital_prototype/Harpy1.png"  width="49%" height="49%">
+    <img src="./docs/digital_prototype/Harpy2.png"  width="49%" height="49%">
+    <img src="./docs/digital_prototype/snow_level.png"  width="49%" height="49%">
+    <img src="./docs/digital_prototype/Level1_prototyp.png"  width="49%" height="49%">
+    <img src="./docs/digital_prototype/inside_house.png"  width="49%" height="49%">
+    <img src="./docs/digital_prototype/mainMenu_ueberarbeitet.png"  width="49%" height="49%">
 </p>
