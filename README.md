@@ -27,6 +27,7 @@ Some impressions of the physical prototype:
 </p>
 <br/><br/>
 Some impressions of the digital prototype:
+<br/>
 <p align="center">
     <img src="./docs/digital_prototype/first_ideas.png"  width="49%" height="49%">
     <img src="./docs/digital_prototype/first_ideas2.png"  width="49%" height="49%">
