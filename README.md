@@ -27,16 +27,15 @@ Some impressions of the physical prototype:
 </p>
 <br/><br/>
 Some impressions of the digital prototype:
-<br/>
 <p align="center">
     <img src="./docs/digital_prototype/first_ideas.png"  width="49%" height="49%">
     <img src="./docs/digital_prototype/first_ideas2.png"  width="49%" height="49%">
     <img src="./docs/digital_prototype/zombie_attacking1.png"  width="49%" height="49%">
     <img src="./docs/digital_prototype/zombie_attacking2.png"  width="49%" height="49%">
-    <img src="./docs/digital_prototype/prototyp_bemalen1.jpeg"  width="49%" height="49%">
-    <img src="./docs/digital_prototype/prototyp_bemalen2.jpeg"  width="49%" height="49%">
-    <img src="./docs/digital_prototype/prototyp_bemalen3.jpeg"  width="49%" height="49%">
-    <img src="./docs/digital_prototype/prototyp_bemalen4.jpeg"  width="49%" height="49%">
+    <img src="./docs/digital_prototype/Zombie_Horde1.png"  width="49%" height="49%">
+    <img src="./docs/digital_prototype/Zombie_Horde2.png"  width="49%" height="49%">
+    <img src="./docs/digital_prototype/tutorial.png"  width="49%" height="49%">
+    <img src="./docs/digital_prototype/moving_wall.png"  width="49%" height="49%">
     <img src="./docs/digital_prototype/prototyp_fertig.jpeg"  width="49%" height="49%">
     <img src="./docs/digital_prototype/prototyp_player1.jpeg"  width="49%" height="49%">
     <img src="./docs/digital_prototype/prototyp_munitionsbox_aufsammeln.jpeg"  width="49%" height="49%">
