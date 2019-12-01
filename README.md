@@ -7,7 +7,8 @@ We have three months for the developing and <strong>my part is to program the en
 <strong>Check out my Twitter-Account where I update my work on this game and where you also can find come short clips I did of the game and show how it looks like in the moment</strong>.
 <br/><br/>
 twitter.com/coutdominic
-<br/><br/>
+<br/><br/><br/>
+Some impressions of the physical prototype:
 <p align="center">
     <img src="./doc/01_MainMenu.png"  width="49%" height="49%">
     <img src="./doc/02_ChooseCharacter.png"  width="49%" height="49%">
