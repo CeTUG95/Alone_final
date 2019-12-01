@@ -11,13 +11,13 @@ twitter.com/coutdominic
 Some impressions of the physical prototype:
 <p align="center">
     <img src="./docs/physical_prototype/prototyp_flaeche_unbeklebt.JPG"  width="49%" height="49%">
-    <img src="./docs/physical_prototype/02_ChooseCharacter.png"  width="49%" height="49%">
-    <img src="./docs/physical_prototype/03_StoryScene01.png"  width="49%" height="49%">
-    <img src="./docs/physical_prototype/05_Ghoul01.png"  width="49%" height="49%">
-    <img src="./docs/physical_prototype/06_Ghoul02.png"  width="49%" height="49%">
-    <img src="./docs/physical_prototype/07_Ghoul03.png"  width="49%" height="49%">
-    <img src="./docs/physical_prototype/08_Reward.png"  width="49%" height="49%">
-    <img src="./docs/physical_prototype/09_Arenaleiter01.png"  width="49%" height="49%">
+    <img src="./docs/physical_prototype/prototyp_flaeche_geklebt1.JPG"  width="49%" height="49%">
+    <img src="./docs/physical_prototype/prototyp_baum2_ohne_farbe.JPG"  width="49%" height="49%">
+    <img src="./docs/physical_prototype/prototyp_anmalen.JPG"  width="49%" height="49%">
+    <img src="./docs/physical_prototype/prototyp_bemalen1.jpeg"  width="49%" height="49%">
+    <img src="./docs/physical_prototype/prototyp_bemalen2.jpeg"  width="49%" height="49%">
+    <img src="./docs/physical_prototype/prototyp_bemalen3.jpeg"  width="49%" height="49%">
+    <img src="./docs/physical_prototype/prototyp_bemalen4.jpeg"  width="49%" height="49%">
     <img src="./docs/physical_prototype/10_Arenaleiter02.png"  width="49%" height="49%">
     <img src="./docs/physical_prototype/11_Arenaleiter03.png"  width="49%" height="49%">
     <img src="./docs/physical_prototype/12_Arenaleiter04.png"  width="49%" height="49%">
