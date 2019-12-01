@@ -33,7 +33,7 @@ Some impressions of the digital prototype:
     <img src="./docs/digital_prototype/zombie_attacking1.png"  width="49%" height="49%">
     <img src="./docs/digital_prototype/zombie_attacking2.png"  width="49%" height="49%">
     <img src="./docs/digital_prototype/Zombie_Horde1.png"  width="49%" height="49%">
-    <img src="./docs/digital_prototype/Zombie_Horde2.png"  width="49%" height="49%">
+    <img src="./docs/digital_prototype/Zombie_Horde2.jpeg"  width="49%" height="49%">
     <img src="./docs/digital_prototype/tutorial.png"  width="49%" height="49%">
     <img src="./docs/digital_prototype/moving_wall.png"  width="49%" height="49%">
     <img src="./docs/digital_prototype/prototyp_fertig.jpeg"  width="49%" height="49%">
