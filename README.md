@@ -18,17 +18,17 @@ Some impressions of the physical prototype:
     <img src="./docs/physical_prototype/prototyp_bemalen2.jpeg"  width="49%" height="49%">
     <img src="./docs/physical_prototype/prototyp_bemalen3.jpeg"  width="49%" height="49%">
     <img src="./docs/physical_prototype/prototyp_bemalen4.jpeg"  width="49%" height="49%">
-    <img src="./docs/physical_prototype/10_Arenaleiter02.png"  width="49%" height="49%">
-    <img src="./docs/physical_prototype/11_Arenaleiter03.png"  width="49%" height="49%">
-    <img src="./docs/physical_prototype/12_Arenaleiter04.png"  width="49%" height="49%">
-    <img src="./docs/physical_prototype/13_Arenaleiter05.png"  width="49%" height="49%">
+    <img src="./docs/physical_prototype/prototyp_fertig.jpeg"  width="49%" height="49%">
+    <img src="./docs/physical_prototype/prototyp_player1.jpeg.png"  width="49%" height="49%">
+    <img src="./docs/physical_prototype/prototyp_munitionsbox_aufsammeln.jpeg"  width="49%" height="49%">
+    <img src="./docs/physical_prototype/prototyp_mehrere_gegner_tot.jpeg"  width="49%" height="49%">
     <img src="./docs/physical_prototype/14_StoryScene03.png"  width="49%" height="49%">
     <img src="./docs/physical_prototype/15_Tod01.png"  width="49%" height="49%">
     <img src="./docs/physical_prototype/16_Tod02.png"  width="49%" height="49%">
-    <img src="./doc/17_Tod03.png"  width="49%" height="49%">
-    <img src="./doc/18_Tod04.png"  width="49%" height="49%">
-    <img src="./doc/19_GameOver01.png"  width="49%" height="49%">
-    <img src="./doc/20_GameOver02.png"  width="49%" height="49%">
-    <img src="./doc/21_Ende.png"  width="49%" height="49%">
+    <img src="./docs/physical_prototype/"  width="49%" height="49%">
+    <img src="./docs/physical_prototype/"  width="49%" height="49%">
+    <img src="./docs/physical_prototype/"  width="49%" height="49%">
+    <img src="./docs/physical_prototype/"  width="49%" height="49%">
+    <img src="./docs/physical_prototype/"  width="49%" height="49%">
 </p>
 <br/>
