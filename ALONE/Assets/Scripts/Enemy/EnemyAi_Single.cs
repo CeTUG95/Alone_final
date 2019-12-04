@@ -11,6 +11,7 @@ public class EnemyAi_Single : MonoBehaviour
     private float distanceToTarget = Mathf.Infinity;
     protected bool isProvoked = false;
     EnemyHealth_Single health;
+    [SerializeField] float range;
 
     void Start()
     {
@@ -34,7 +35,7 @@ public class EnemyAi_Single : MonoBehaviour
             EngageTarget();
         }
 
-        else
+        else if (distanceToTarget <= range)
         {
             isProvoked = true;
         }
@@ -77,6 +78,12 @@ public class EnemyAi_Single : MonoBehaviour
         Vector3 direction = (target.position - transform.position).normalized;
         Quaternion lookRotation = Quaternion.LookRotation(new Vector3(direction.x, 0, direction.z));
         transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, Time.deltaTime * 5f);
+    }
+
+    void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(transform.position, range);
     }
 
     public bool GetIsProvoked()
