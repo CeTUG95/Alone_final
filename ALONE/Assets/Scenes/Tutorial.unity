@@ -3767,28 +3767,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 649721142}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &654893555 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 100006, guid: c6453f8e1f814744d8b94e5a6d1f9942,
-    type: 3}
-  m_PrefabInstance: {fileID: 809749365}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &654893566
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 654893555}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b6a84ef669b9a44f685f1b738d9dd148, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameOverUi: {fileID: 1880935007}
-  reticle: {fileID: 819830741}
-  btn: {fileID: 428501043}
-  eventSys: {fileID: 209070917}
 --- !u!1 &663578360
 GameObject:
   m_ObjectHideFlags: 0
@@ -5242,14 +5220,46 @@ PrefabInstance:
       propertyPath: livesText
       value: 
       objectReference: {fileID: 1777850072}
-    - target: {fileID: 809749369, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
-      propertyPath: lives
-      value: 300
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400004, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
-      propertyPath: movementSettings.RunMultiplier
-      value: 1.6
-      objectReference: {fileID: 0}
+    - target: {fileID: 545315016479668902, guid: c6453f8e1f814744d8b94e5a6d1f9942,
+        type: 3}
+      propertyPath: gameOverUi
+      value: 
+      objectReference: {fileID: 1880935007}
+    - target: {fileID: 545315016479668902, guid: c6453f8e1f814744d8b94e5a6d1f9942,
+        type: 3}
+      propertyPath: reticle
+      value: 
+      objectReference: {fileID: 819830741}
+    - target: {fileID: 545315016479668902, guid: c6453f8e1f814744d8b94e5a6d1f9942,
+        type: 3}
+      propertyPath: btn
+      value: 
+      objectReference: {fileID: 428501043}
+    - target: {fileID: 545315016479668902, guid: c6453f8e1f814744d8b94e5a6d1f9942,
+        type: 3}
+      propertyPath: eventSys
+      value: 
+      objectReference: {fileID: 209070917}
+    - target: {fileID: 6531984818252549203, guid: c6453f8e1f814744d8b94e5a6d1f9942,
+        type: 3}
+      propertyPath: gameOverUi
+      value: 
+      objectReference: {fileID: 1880935007}
+    - target: {fileID: 6531984818252549203, guid: c6453f8e1f814744d8b94e5a6d1f9942,
+        type: 3}
+      propertyPath: reticle
+      value: 
+      objectReference: {fileID: 819830741}
+    - target: {fileID: 6531984818252549203, guid: c6453f8e1f814744d8b94e5a6d1f9942,
+        type: 3}
+      propertyPath: btn
+      value: 
+      objectReference: {fileID: 428501043}
+    - target: {fileID: 6531984818252549203, guid: c6453f8e1f814744d8b94e5a6d1f9942,
+        type: 3}
+      propertyPath: eventSys
+      value: 
+      objectReference: {fileID: 209070917}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
 --- !u!223 &819830741 stripped
@@ -14606,5 +14616,55 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3569374207833472408, guid: da5e740e8d3624ef993c8a58af4a0cdc,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6664654137984411140, guid: da5e740e8d3624ef993c8a58af4a0cdc,
+        type: 3}
+      propertyPath: eventSys
+      value: 
+      objectReference: {fileID: 209070917}
+    - target: {fileID: 6664654137984411140, guid: da5e740e8d3624ef993c8a58af4a0cdc,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6558403687188172458, guid: da5e740e8d3624ef993c8a58af4a0cdc,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4346822348014264049, guid: da5e740e8d3624ef993c8a58af4a0cdc,
+        type: 3}
+      propertyPath: m_Name
+      value: PauseText
+      objectReference: {fileID: 0}
+    - target: {fileID: 6558403686798770174, guid: da5e740e8d3624ef993c8a58af4a0cdc,
+        type: 3}
+      propertyPath: m_Name
+      value: TMP SubMeshUI [ToughHorror SDF Material + LiberationSans SDF Atlas]
+      objectReference: {fileID: 0}
+    - target: {fileID: 6558403686798770144, guid: da5e740e8d3624ef993c8a58af4a0cdc,
+        type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6558403686798770144, guid: da5e740e8d3624ef993c8a58af4a0cdc,
+        type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6558403686798770144, guid: da5e740e8d3624ef993c8a58af4a0cdc,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6798660324027625778, guid: da5e740e8d3624ef993c8a58af4a0cdc,
+        type: 3}
+      propertyPath: eventSys
+      value: 
+      objectReference: {fileID: 209070917}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da5e740e8d3624ef993c8a58af4a0cdc, type: 3}

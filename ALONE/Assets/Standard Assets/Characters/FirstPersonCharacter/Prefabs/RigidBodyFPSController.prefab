@@ -187,6 +187,7 @@ GameObject:
   - component: {fileID: 537818567}
   - component: {fileID: 537818568}
   - component: {fileID: 537818566}
+  - component: {fileID: 545315016479668902}
   m_Layer: 0
   m_Name: RigidBodyFPSController
   m_TagString: Player
@@ -256,7 +257,7 @@ MonoBehaviour:
     ForwardSpeed: 11
     BackwardSpeed: 8
     StrafeSpeed: 8
-    RunMultiplier: 1.3
+    RunMultiplier: 1.6
     RunKey: 304
     JumpForce: 50
     SlopeCurveModifier:
@@ -363,7 +364,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96ca387faa00d4e99b513b832dcb58c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lives: 100
+  lives: 300
   livesText: {fileID: 0}
 --- !u!82 &537818567
 AudioSource:
@@ -570,6 +571,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clip: {fileID: 8300000, guid: 42e65e088b3f4374e851b8dbd38f3df9, type: 3}
+--- !u!114 &545315016479668902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6a84ef669b9a44f685f1b738d9dd148, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameOverUi: {fileID: 0}
+  reticle: {fileID: 0}
+  btn: {fileID: 0}
+  eventSys: {fileID: 0}
 --- !u!1 &3280713190819854889
 GameObject:
   m_ObjectHideFlags: 0
