@@ -8,14 +8,28 @@ public class PlayerHealth : MonoBehaviour
     [SerializeField] float lives;
     [SerializeField] Text livesText;
 
+    AudioSource source;
+    [SerializeField] AudioClip clip;
+    [SerializeField] AudioClip clip2;
+
+    private void Start()
+    {
+        AudioSource[] audioSources = GetComponents<AudioSource>();
+        source = audioSources[0];
+        clip = audioSources[1].clip;
+        clip2 = audioSources[2].clip;
+    }
+
     // ZOMBIE
     public void TakeDamage(float damage)
     {
+        source.PlayOneShot(clip2);
         lives -= damage;
         livesText.text = "HP: " + lives;
 
         if(lives <= 0)
         {
+            source.PlayOneShot(clip);
             GetComponent<DeathUi>().HandleDeath();
         }
     }
@@ -23,11 +37,13 @@ public class PlayerHealth : MonoBehaviour
     // HARPY
     public void TakeDamage2(float damage)
     {
+        source.PlayOneShot(clip2);
         lives -= damage;
         livesText.text = "HP: " + lives;
 
         if (lives <= 0)
         {
+            source.PlayOneShot(clip);
             GetComponent<DeathUi>().HandleDeath();
         }
     }
