@@ -5240,6 +5240,19 @@ PrefabInstance:
       propertyPath: eventSys
       value: 
       objectReference: {fileID: 209070917}
+    - target: {fileID: 537818567, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 42e65e088b3f4374e851b8dbd38f3df9, type: 3}
+    - target: {fileID: 537818566, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
+      propertyPath: clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 42e65e088b3f4374e851b8dbd38f3df9, type: 3}
+    - target: {fileID: 5885507645094262526, guid: c6453f8e1f814744d8b94e5a6d1f9942,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6531984818252549203, guid: c6453f8e1f814744d8b94e5a6d1f9942,
         type: 3}
       propertyPath: gameOverUi
@@ -5260,19 +5273,10 @@ PrefabInstance:
       propertyPath: eventSys
       value: 
       objectReference: {fileID: 209070917}
-    - target: {fileID: 537818567, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
-      propertyPath: m_audioClip
+    - target: {fileID: 1511855287, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
+      propertyPath: impact
       value: 
-      objectReference: {fileID: 8300000, guid: 42e65e088b3f4374e851b8dbd38f3df9, type: 3}
-    - target: {fileID: 537818566, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
-      propertyPath: clip
-      value: 
-      objectReference: {fileID: 8300000, guid: 42e65e088b3f4374e851b8dbd38f3df9, type: 3}
-    - target: {fileID: 5885507645094262526, guid: c6453f8e1f814744d8b94e5a6d1f9942,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 6558403686382060786}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
 --- !u!223 &819830741 stripped
@@ -14649,16 +14653,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4346822348014264049, guid: da5e740e8d3624ef993c8a58af4a0cdc,
-        type: 3}
-      propertyPath: m_Name
-      value: PauseText
-      objectReference: {fileID: 0}
-    - target: {fileID: 6558403686798770174, guid: da5e740e8d3624ef993c8a58af4a0cdc,
-        type: 3}
-      propertyPath: m_Name
-      value: TMP SubMeshUI [ToughHorror SDF Material + LiberationSans SDF Atlas]
-      objectReference: {fileID: 0}
     - target: {fileID: 6558403686798770144, guid: da5e740e8d3624ef993c8a58af4a0cdc,
         type: 3}
       propertyPath: m_Material
@@ -14674,6 +14668,21 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4346822348014264049, guid: da5e740e8d3624ef993c8a58af4a0cdc,
+        type: 3}
+      propertyPath: m_Name
+      value: PauseText
+      objectReference: {fileID: 0}
+    - target: {fileID: 6558403686798770174, guid: da5e740e8d3624ef993c8a58af4a0cdc,
+        type: 3}
+      propertyPath: m_Name
+      value: TMP SubMeshUI [ToughHorror SDF Material + LiberationSans SDF Atlas]
+      objectReference: {fileID: 0}
+    - target: {fileID: 4504759283284790207, guid: da5e740e8d3624ef993c8a58af4a0cdc,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6798660324027625778, guid: da5e740e8d3624ef993c8a58af4a0cdc,
         type: 3}
       propertyPath: eventSys
@@ -14681,3 +14690,9 @@ PrefabInstance:
       objectReference: {fileID: 209070917}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da5e740e8d3624ef993c8a58af4a0cdc, type: 3}
+--- !u!223 &6558403686382060786 stripped
+Canvas:
+  m_CorrespondingSourceObject: {fileID: 4052249464353101314, guid: da5e740e8d3624ef993c8a58af4a0cdc,
+    type: 3}
+  m_PrefabInstance: {fileID: 6558403686382060785}
+  m_PrefabAsset: {fileID: 0}

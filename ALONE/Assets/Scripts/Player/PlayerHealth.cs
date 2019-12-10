@@ -12,6 +12,8 @@ public class PlayerHealth : MonoBehaviour
     [SerializeField] AudioClip clip;
     [SerializeField] AudioClip clip2;
 
+    //DamageUi damage;
+
     private void Start()
     {
         AudioSource[] audioSources = GetComponents<AudioSource>();
@@ -24,6 +26,9 @@ public class PlayerHealth : MonoBehaviour
     public void TakeDamage(float damage)
     {
         source.PlayOneShot(clip2);
+
+        GetComponent<DamageUi>().ShowDamageImpact();
+
         lives -= damage;
         livesText.text = "HP: " + lives;
 
@@ -38,6 +43,9 @@ public class PlayerHealth : MonoBehaviour
     public void TakeDamage2(float damage)
     {
         source.PlayOneShot(clip2);
+
+        GetComponent<DamageUi>().ShowDamageImpact();
+
         lives -= damage;
         livesText.text = "HP: " + lives;
 

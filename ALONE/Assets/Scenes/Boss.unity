@@ -3079,6 +3079,10 @@ PrefabInstance:
       propertyPath: damage
       value: 40
       objectReference: {fileID: 0}
+    - target: {fileID: 1511855287, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
+      propertyPath: impact
+      value: 
+      objectReference: {fileID: 6558403686382060787}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
 --- !u!1001 &809981923
@@ -8736,6 +8740,11 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Quit
       objectReference: {fileID: 0}
+    - target: {fileID: 4504759283284790207, guid: da5e740e8d3624ef993c8a58af4a0cdc,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da5e740e8d3624ef993c8a58af4a0cdc, type: 3}
 --- !u!114 &6558403686382060786 stripped
@@ -8750,3 +8759,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!223 &6558403686382060787 stripped
+Canvas:
+  m_CorrespondingSourceObject: {fileID: 4052249464353101314, guid: da5e740e8d3624ef993c8a58af4a0cdc,
+    type: 3}
+  m_PrefabInstance: {fileID: 6558403686382060785}
+  m_PrefabAsset: {fileID: 0}
