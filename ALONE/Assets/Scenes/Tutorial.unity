@@ -5240,6 +5240,10 @@ PrefabInstance:
       propertyPath: eventSys
       value: 
       objectReference: {fileID: 209070917}
+    - target: {fileID: 1511855287, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
+      propertyPath: impact
+      value: 
+      objectReference: {fileID: 6558403686382060786}
     - target: {fileID: 537818567, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
       propertyPath: m_audioClip
       value: 
@@ -5273,10 +5277,6 @@ PrefabInstance:
       propertyPath: eventSys
       value: 
       objectReference: {fileID: 209070917}
-    - target: {fileID: 1511855287, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
-      propertyPath: impact
-      value: 
-      objectReference: {fileID: 6558403686382060786}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
 --- !u!223 &819830741 stripped
@@ -14613,31 +14613,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6558403686118710051, guid: da5e740e8d3624ef993c8a58af4a0cdc,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6558403686836272335, guid: da5e740e8d3624ef993c8a58af4a0cdc,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6558403687295396759, guid: da5e740e8d3624ef993c8a58af4a0cdc,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 149.39844
-      objectReference: {fileID: 0}
-    - target: {fileID: 6558403687188172461, guid: da5e740e8d3624ef993c8a58af4a0cdc,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3569374207833472408, guid: da5e740e8d3624ef993c8a58af4a0cdc,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6664654137984411140, guid: da5e740e8d3624ef993c8a58af4a0cdc,
         type: 3}
       propertyPath: eventSys
@@ -14646,11 +14621,6 @@ PrefabInstance:
     - target: {fileID: 6664654137984411140, guid: da5e740e8d3624ef993c8a58af4a0cdc,
         type: 3}
       propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6558403687188172458, guid: da5e740e8d3624ef993c8a58af4a0cdc,
-        type: 3}
-      propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6558403686798770144, guid: da5e740e8d3624ef993c8a58af4a0cdc,
@@ -14668,6 +14638,41 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6558403686118710051, guid: da5e740e8d3624ef993c8a58af4a0cdc,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6558403686836272335, guid: da5e740e8d3624ef993c8a58af4a0cdc,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6558403687188172461, guid: da5e740e8d3624ef993c8a58af4a0cdc,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3569374207833472408, guid: da5e740e8d3624ef993c8a58af4a0cdc,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4504759283284790207, guid: da5e740e8d3624ef993c8a58af4a0cdc,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6558403687295396759, guid: da5e740e8d3624ef993c8a58af4a0cdc,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 136
+      objectReference: {fileID: 0}
+    - target: {fileID: 6558403687188172458, guid: da5e740e8d3624ef993c8a58af4a0cdc,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4346822348014264049, guid: da5e740e8d3624ef993c8a58af4a0cdc,
         type: 3}
       propertyPath: m_Name
@@ -14678,14 +14683,19 @@ PrefabInstance:
       propertyPath: m_Name
       value: TMP SubMeshUI [ToughHorror SDF Material + LiberationSans SDF Atlas]
       objectReference: {fileID: 0}
-    - target: {fileID: 4504759283284790207, guid: da5e740e8d3624ef993c8a58af4a0cdc,
+    - target: {fileID: 6798660324027625778, guid: da5e740e8d3624ef993c8a58af4a0cdc,
+        type: 3}
+      propertyPath: eventSys
+      value: 
+      objectReference: {fileID: 209070917}
+    - target: {fileID: 4566114268950293978, guid: da5e740e8d3624ef993c8a58af4a0cdc,
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6798660324027625778, guid: da5e740e8d3624ef993c8a58af4a0cdc,
+    - target: {fileID: 3272232731400085595, guid: da5e740e8d3624ef993c8a58af4a0cdc,
         type: 3}
-      propertyPath: eventSys
+      propertyPath: eventSys2
       value: 
       objectReference: {fileID: 209070917}
     m_RemovedComponents: []

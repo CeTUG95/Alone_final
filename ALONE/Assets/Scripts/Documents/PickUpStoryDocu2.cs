@@ -14,7 +14,7 @@ public class PickUpStoryDocu2 : MonoBehaviour
     private void Start()
     {
         reticle = GameObject.Find("UI/ReticleCanvas/Reticle");
-        document = GameObject.Find("UI/Stats/AllDocuments/MilitiaLog2");
+        document = GameObject.Find("UI/StatsCanvas/AllDocuments/MilitiaLog2");
         docu = GameObject.FindGameObjectWithTag("StoryDocument2");
         source = GetComponent<AudioSource>();
     }
@@ -24,26 +24,23 @@ public class PickUpStoryDocu2 : MonoBehaviour
         if (other.gameObject.tag == "Player")
         {
             source.PlayOneShot(clip);
-            Destroy(docu, 21);
+            Destroy(docu, 11);
             document.SetActive(true);
             reticle.SetActive(false);
             Deactivate(reticle);
-            Destroy(document, 21);
+            Destroy(document, 11);
             StartCoroutine(Activate(reticle));
         }
     }
 
     void Deactivate(GameObject g)
     {
-        Debug.Log("GO INTO DEACTIVATE FUNCTION AND DEACTIVATE RETICLE!");
         g.SetActive(false);
     }
 
     IEnumerator Activate(GameObject g)
     {
-        Debug.Log("GO INTO ACTIVATE FUNCTION!");
-        yield return new WaitForSeconds(20.94f);
-        Debug.Log("ACTIVATE RETICLE AFTER AFTER 20.94 SECONDS!");
+        yield return new WaitForSeconds(10.94f);
         g.SetActive(true);
     }
 }

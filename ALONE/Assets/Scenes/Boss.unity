@@ -3047,6 +3047,10 @@ PrefabInstance:
       propertyPath: eventSys
       value: 
       objectReference: {fileID: 209070917}
+    - target: {fileID: 1511855287, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
+      propertyPath: impact
+      value: 
+      objectReference: {fileID: 6558403686382060787}
     - target: {fileID: 11400004, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
       propertyPath: movementSettings.RunMultiplier
       value: 1.6
@@ -3079,10 +3083,6 @@ PrefabInstance:
       propertyPath: damage
       value: 40
       objectReference: {fileID: 0}
-    - target: {fileID: 1511855287, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
-      propertyPath: impact
-      value: 
-      objectReference: {fileID: 6558403686382060787}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
 --- !u!1001 &809981923
@@ -8685,41 +8685,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6558403686118710051, guid: da5e740e8d3624ef993c8a58af4a0cdc,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6558403686836272335, guid: da5e740e8d3624ef993c8a58af4a0cdc,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6558403687295396759, guid: da5e740e8d3624ef993c8a58af4a0cdc,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 149.39844
-      objectReference: {fileID: 0}
-    - target: {fileID: 6558403687188172461, guid: da5e740e8d3624ef993c8a58af4a0cdc,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3569374207833472408, guid: da5e740e8d3624ef993c8a58af4a0cdc,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6664654137984411140, guid: da5e740e8d3624ef993c8a58af4a0cdc,
         type: 3}
       propertyPath: eventSys
       value: 
       objectReference: {fileID: 209070917}
-    - target: {fileID: 6558403687188172458, guid: da5e740e8d3624ef993c8a58af4a0cdc,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 6558403686798770144, guid: da5e740e8d3624ef993c8a58af4a0cdc,
         type: 3}
       propertyPath: m_Material
@@ -8735,16 +8705,56 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 9007256208929082715, guid: da5e740e8d3624ef993c8a58af4a0cdc,
+    - target: {fileID: 6558403686118710051, guid: da5e740e8d3624ef993c8a58af4a0cdc,
         type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Quit
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6558403686836272335, guid: da5e740e8d3624ef993c8a58af4a0cdc,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6558403687188172461, guid: da5e740e8d3624ef993c8a58af4a0cdc,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3569374207833472408, guid: da5e740e8d3624ef993c8a58af4a0cdc,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4504759283284790207, guid: da5e740e8d3624ef993c8a58af4a0cdc,
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6558403687295396759, guid: da5e740e8d3624ef993c8a58af4a0cdc,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 137
+      objectReference: {fileID: 0}
+    - target: {fileID: 6558403687188172458, guid: da5e740e8d3624ef993c8a58af4a0cdc,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9007256208929082715, guid: da5e740e8d3624ef993c8a58af4a0cdc,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Quit
+      objectReference: {fileID: 0}
+    - target: {fileID: 4566114268950293978, guid: da5e740e8d3624ef993c8a58af4a0cdc,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3272232731400085595, guid: da5e740e8d3624ef993c8a58af4a0cdc,
+        type: 3}
+      propertyPath: eventSys2
+      value: 
+      objectReference: {fileID: 209070917}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da5e740e8d3624ef993c8a58af4a0cdc, type: 3}
 --- !u!114 &6558403686382060786 stripped

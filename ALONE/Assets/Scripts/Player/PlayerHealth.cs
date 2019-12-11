@@ -12,8 +12,6 @@ public class PlayerHealth : MonoBehaviour
     [SerializeField] AudioClip clip;
     [SerializeField] AudioClip clip2;
 
-    //DamageUi damage;
-
     private void Start()
     {
         AudioSource[] audioSources = GetComponents<AudioSource>();
