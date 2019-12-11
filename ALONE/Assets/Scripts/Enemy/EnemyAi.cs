@@ -12,12 +12,17 @@ public class EnemyAi : MonoBehaviour
     protected bool isProvoked = false;
     EnemyHealth health;
     [SerializeField] float range = 0f;
+    //
+    private AudioSource source;
+    [SerializeField] AudioClip clip;
 
     void Start()
     {
         navMeshAgent = GetComponent<NavMeshAgent>();
         health = GetComponent<EnemyHealth>();
         target = GameObject.Find("Player").transform;
+
+        source = GetComponent<AudioSource>();
     }
 
     void Update()
@@ -38,6 +43,7 @@ public class EnemyAi : MonoBehaviour
         else if (distanceToTarget <= range)
         {
             isProvoked = true;
+            source.Play();
         }
     }
 

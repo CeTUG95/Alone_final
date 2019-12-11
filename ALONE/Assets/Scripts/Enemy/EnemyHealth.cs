@@ -7,11 +7,17 @@ public class EnemyHealth : MonoBehaviour
     [SerializeField] float HP;
     public OpponentController opponentController;
 
+    //
+    private AudioSource source;
+    [SerializeField] AudioClip clip;
+
     bool isDead = false;
 
     private void Start()
     {
         opponentController.GetComponent<OpponentController>().opponentHasAppeared();
+
+        source = GetComponent<AudioSource>();
     }
 
     public bool IsDead()
@@ -26,6 +32,7 @@ public class EnemyHealth : MonoBehaviour
         if (HP <= 0)
         {
             Die();
+            source.enabled = false;
         }
     }
 

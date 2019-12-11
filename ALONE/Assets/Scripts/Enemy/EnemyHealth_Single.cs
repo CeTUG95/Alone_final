@@ -5,8 +5,15 @@ using UnityEngine;
 public class EnemyHealth_Single : MonoBehaviour
 {
     [SerializeField] float HP;
-
     bool isDead = false;
+    //
+    private AudioSource source;
+    [SerializeField] AudioClip clip;
+
+    private void Start()
+    {
+        source = GetComponent<AudioSource>();
+    }
 
     public bool IsDead()
     {
@@ -20,6 +27,7 @@ public class EnemyHealth_Single : MonoBehaviour
         if (HP <= 0)
         {
             Die();
+            source.enabled = false;
         }
     }
 

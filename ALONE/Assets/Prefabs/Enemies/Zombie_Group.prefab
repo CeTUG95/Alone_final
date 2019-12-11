@@ -128,6 +128,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HP: 100
   opponentController: {fileID: 0}
+  clip: {fileID: 8300000, guid: ba0fbd4cf55bc4d53bdabeb8f792a4e7, type: 3}
 --- !u!114 &5681753854608924432
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -173,6 +174,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   range: 9.96
+  clip: {fileID: 8300000, guid: ba0fbd4cf55bc4d53bdabeb8f792a4e7, type: 3}
 --- !u!82 &1854644871988110172
 AudioSource:
   m_ObjectHideFlags: 0
@@ -180,7 +182,7 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5681753854608924650}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: ba0fbd4cf55bc4d53bdabeb8f792a4e7, type: 3}
