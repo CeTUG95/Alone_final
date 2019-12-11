@@ -5,7 +5,6 @@ using UnityStandardAssets.Characters.FirstPerson;
 
 public class Footsteps : MonoBehaviour
 {
-
     private AudioSource sources;
     [SerializeField] AudioClip clip;
     RigidbodyFirstPersonController rbfpc;
@@ -22,7 +21,6 @@ public class Footsteps : MonoBehaviour
         {
             sources.Play();
         }
-
     }
 
 }

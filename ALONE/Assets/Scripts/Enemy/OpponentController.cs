@@ -4,10 +4,6 @@ using UnityEngine;
 
 public class OpponentController : MonoBehaviour
 {
-
-    //public EnemyAi[] enemies;
-
-    
     public EnemyAi ai;
     public EnemyAi ai2;
     public EnemyAi ai3;
@@ -17,7 +13,10 @@ public class OpponentController : MonoBehaviour
     public EnemyAi ai7;
     public EnemyAi ai8;
     public EnemyAi ai9;
-    
+    public EnemyAi ai10;
+    public EnemyAi ai11;
+    public EnemyAi ai12;
+
 
     private AudioSource audioSource;
     public AudioClip clip;
@@ -32,11 +31,11 @@ public class OpponentController : MonoBehaviour
     public void opponentHasDied()
     {
         opponentsLeft--;
-        print(opponentsLeft);
+        //print(opponentsLeft);
 
         if (opponentsLeft == 0)
         {
-            Debug.Log("all dead");
+            //Debug.Log("all dead");
             audioSource.Stop();
         }
     }
@@ -44,30 +43,11 @@ public class OpponentController : MonoBehaviour
     public void opponentHasAppeared()
     {
         opponentsLeft++;
-        print(opponentsLeft);
+        //print(opponentsLeft);
     }
 
     private void Update()
     {
-
-        /*
-        foreach (EnemyAi enemy in enemies)
-        {
-            bool notProvoked = enemy.GetIsProvoked();
-
-            if (enemies.Length == 1 || !notProvoked)
-            {
-                //if (!notProvoked)
-                //{
-                    Debug.Log("HI, HIER BIN ICH");
-                    audioSource.Play();
-                //}
-            }
-            
-            
-        }
-        */
-        
         bool notProvoked = ai.GetIsProvoked();
         bool notProvoked2 = ai2.GetIsProvoked();
         bool notProvoked3 = ai3.GetIsProvoked();
@@ -77,30 +57,15 @@ public class OpponentController : MonoBehaviour
         bool notProvoked7 = ai7.GetIsProvoked();
         bool notProvoked8 = ai8.GetIsProvoked();
         bool notProvoked9 = ai9.GetIsProvoked();
-        
+        bool notProvoked10 = ai10.GetIsProvoked();
+        bool notProvoked11 = ai11.GetIsProvoked();
+        bool notProvoked12 = ai12.GetIsProvoked();
 
-        
-        if (!notProvoked && !notProvoked2 && !notProvoked3 && !notProvoked4 && !notProvoked5 && !notProvoked6 && !notProvoked7 && !notProvoked8 && !notProvoked9)
+        if (!notProvoked && !notProvoked2 && !notProvoked3 && !notProvoked4 && !notProvoked5 && !notProvoked6 && !notProvoked7 && !notProvoked8 && !notProvoked9 && !notProvoked10 && !notProvoked11 && !notProvoked12)
         {
             audioSource.Play();
 
         }
-
-        // calls exceptions on setDestination for enemy
-        /*
-        if (notProvoked || notProvoked2 ||  notProvoked3 ||  notProvoked4 ||  notProvoked5 || notProvoked6 ||  notProvoked7 || notProvoked8 || notProvoked9)
-        {
-            ai.EngageTarget();
-            ai2.EngageTarget();
-            ai3.EngageTarget();
-            ai4.EngageTarget();
-            ai5.EngageTarget();
-            ai6.EngageTarget();
-            ai7.EngageTarget();
-            ai8.EngageTarget();
-            ai9.EngageTarget();
-        }
-        */
 
     }
 

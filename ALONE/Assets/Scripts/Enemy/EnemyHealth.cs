@@ -11,7 +11,7 @@ public class EnemyHealth : MonoBehaviour
 
     private void Start()
     {
-        opponentController.opponentHasAppeared();
+        opponentController.GetComponent<OpponentController>().opponentHasAppeared();
     }
 
     public bool IsDead()

@@ -16,7 +16,5 @@ public class BossAttack : MonoBehaviour
     {
         if (target == null) return;
         target.TakeDamage2(damage);
-        Debug.Log("BOSS ATTACKED PLAYER");
-
     }
 }

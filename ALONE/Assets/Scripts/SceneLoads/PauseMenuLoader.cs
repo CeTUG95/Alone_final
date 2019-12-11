@@ -52,8 +52,6 @@ public class PauseMenuLoader : MonoBehaviour
         Time.timeScale = 0;
         isPaused = true;
         eventSys.SetSelectedGameObject(btn.gameObject);
-        //
-        /*vertical navigation must not be possible in pause menu*/
     }
 
     public void BackToMainMenu()

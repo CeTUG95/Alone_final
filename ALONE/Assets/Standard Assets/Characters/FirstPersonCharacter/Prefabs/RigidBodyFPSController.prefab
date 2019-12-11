@@ -367,6 +367,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96ca387faa00d4e99b513b832dcb58c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  stopPlaying: {fileID: 0}
   lives: 100
   livesText: {fileID: 0}
   clip: {fileID: 8300000, guid: 2fe1c9fc2238b4ebd8f3594c17e2f982, type: 3}

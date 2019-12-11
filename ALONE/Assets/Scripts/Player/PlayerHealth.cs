@@ -5,6 +5,9 @@ using UnityEngine.UI;
 
 public class PlayerHealth : MonoBehaviour
 {
+    [SerializeField] GameObject stopPlaying;
+    [SerializeField] GameObject stopPlayingRagerBearWhenDead;
+
     [SerializeField] float lives;
     [SerializeField] Text livesText;
 
@@ -34,6 +37,9 @@ public class PlayerHealth : MonoBehaviour
         {
             source.PlayOneShot(clip);
             GetComponent<DeathUi>().HandleDeath();
+
+            stopPlaying.SetActive(false);
+            stopPlayingRagerBearWhenDead.SetActive(false);
         }
     }
 
@@ -51,6 +57,8 @@ public class PlayerHealth : MonoBehaviour
         {
             source.PlayOneShot(clip);
             GetComponent<DeathUi>().HandleDeath();
+
+            stopPlaying.SetActive(false);
         }
     }
 }
