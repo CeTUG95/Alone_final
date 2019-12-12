@@ -9,7 +9,7 @@ public class TunnelLoadLevel1 : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
-			SceneManager.LoadScene("Level1_1");
+			SceneManager.LoadScene(2);
 
         }
     }
