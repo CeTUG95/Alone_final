@@ -242,7 +242,7 @@ CapsuleCollider:
   m_Radius: 0.5
   m_Height: 1.6
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 0.21, y: 0, z: 0.28}
 --- !u!114 &11400004
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -368,6 +368,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stopPlaying: {fileID: 0}
+  stopPlayingRagerBearWhenDead: {fileID: 0}
   lives: 100
   livesText: {fileID: 0}
   clip: {fileID: 8300000, guid: 2fe1c9fc2238b4ebd8f3594c17e2f982, type: 3}
