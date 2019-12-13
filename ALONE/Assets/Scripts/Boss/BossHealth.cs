@@ -8,6 +8,15 @@ public class BossHealth : MonoBehaviour
 
     bool isDead = false;
 
+    //
+    private AudioSource source;
+    [SerializeField] AudioClip clip;
+
+    private void Start()
+    {
+        source = GetComponent<AudioSource>();
+    }
+
     public bool IsDead()
     {
         return isDead;
@@ -20,6 +29,7 @@ public class BossHealth : MonoBehaviour
         if (HP <= 0)
         {
             Die();
+            source.enabled = false;
         }
     }
 

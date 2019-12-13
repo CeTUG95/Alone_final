@@ -10,13 +10,19 @@ public class BossAi : MonoBehaviour
 	private float distanceToTarget = Mathf.Infinity;
 	private bool isProvoked = false;
 	BossHealth health;
+    [SerializeField] float range;
+    //
+    private AudioSource source;
+    [SerializeField] AudioClip clip;
 
     void Start()
 	{
 		navMeshAgent = GetComponent<NavMeshAgent>();
 		health = GetComponent<BossHealth>();
         target = GameObject.Find("Player").transform;
-	}
+
+        source = GetComponent<AudioSource>();
+    }
 
 	void Update()
 	{
@@ -33,11 +39,12 @@ public class BossAi : MonoBehaviour
 			EngageTarget();
 		}
 
-		else
-		{
-			isProvoked = true;
-		}
-	}
+        else if (distanceToTarget <= range)
+        {
+            isProvoked = true;
+            source.Play();
+        }
+    }
 
 	public void OnDamageTaken()
 	{
@@ -77,4 +84,10 @@ public class BossAi : MonoBehaviour
 		Quaternion lookRotation = Quaternion.LookRotation(new Vector3(direction.x, 0, direction.z));
 		transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, Time.deltaTime * 5f);
 	}
+
+    void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(transform.position, range);
+    }
 }
