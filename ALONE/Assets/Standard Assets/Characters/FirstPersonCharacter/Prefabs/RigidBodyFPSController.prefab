@@ -239,7 +239,7 @@ CapsuleCollider:
   m_Material: {fileID: 13400000, guid: 6a32e103079bb4323b94a3fbf2d94e2d, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.5
+  m_Radius: 0.43
   m_Height: 1.6
   m_Direction: 1
   m_Center: {x: 0.21, y: 0, z: 0.28}

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44983733, g: 0.49990547, b: 0.5755892, a: 1}
+  m_IndirectSpecularColor: {r: 0.4499725, g: 0.5000317, b: 0.57552946, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -4349,13 +4349,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 705507993}
-  m_LocalRotation: {x: 0.3159987, y: -0.22207446, z: 0.13293156, w: 0.9127743}
+  m_LocalRotation: {x: 0.31127134, y: -0.2213837, z: 0.13407896, w: 0.9143972}
   m_LocalPosition: {x: 60.7, y: 10.07, z: 43.42}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 39.488003, y: -24.61, z: 7.6190004}
+  m_LocalEulerAnglesHint: {x: 38.948, y: -24.410002, z: 7.9360003}
 --- !u!1001 &712794556
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14697,11 +14697,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4346822348014264049, guid: da5e740e8d3624ef993c8a58af4a0cdc,
-        type: 3}
-      propertyPath: m_Name
-      value: PauseText
-      objectReference: {fileID: 0}
     - target: {fileID: 6558403686798770144, guid: da5e740e8d3624ef993c8a58af4a0cdc,
         type: 3}
       propertyPath: m_Material
@@ -14717,16 +14712,6 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 6558403686798770174, guid: da5e740e8d3624ef993c8a58af4a0cdc,
-        type: 3}
-      propertyPath: m_Name
-      value: TMP SubMeshUI [ToughHorror SDF Material + LiberationSans SDF Atlas]
-      objectReference: {fileID: 0}
-    - target: {fileID: 6798660324027625778, guid: da5e740e8d3624ef993c8a58af4a0cdc,
-        type: 3}
-      propertyPath: eventSys
-      value: 
-      objectReference: {fileID: 209070917}
     - target: {fileID: 4566114268950293978, guid: da5e740e8d3624ef993c8a58af4a0cdc,
         type: 3}
       propertyPath: m_LocalPosition.z
@@ -14735,6 +14720,21 @@ PrefabInstance:
     - target: {fileID: 3272232731400085595, guid: da5e740e8d3624ef993c8a58af4a0cdc,
         type: 3}
       propertyPath: eventSys2
+      value: 
+      objectReference: {fileID: 209070917}
+    - target: {fileID: 4346822348014264049, guid: da5e740e8d3624ef993c8a58af4a0cdc,
+        type: 3}
+      propertyPath: m_Name
+      value: PauseText
+      objectReference: {fileID: 0}
+    - target: {fileID: 6558403686798770174, guid: da5e740e8d3624ef993c8a58af4a0cdc,
+        type: 3}
+      propertyPath: m_Name
+      value: TMP SubMeshUI [ToughHorror SDF Material + LiberationSans SDF Atlas]
+      objectReference: {fileID: 0}
+    - target: {fileID: 6798660324027625778, guid: da5e740e8d3624ef993c8a58af4a0cdc,
+        type: 3}
+      propertyPath: eventSys
       value: 
       objectReference: {fileID: 209070917}
     m_RemovedComponents: []
