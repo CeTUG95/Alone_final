@@ -26,7 +26,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1000012780340824}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -0.038473815, y: 1.2860544, z: -0.0035731108}
+  m_LocalPosition: {x: -0.49, y: 0.99, z: -0.0035731108}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4000011240085458}
@@ -88,6 +88,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4000011240085458}
   - component: {fileID: 205000013743736396}
+  - component: {fileID: 1429674967}
   m_Layer: 0
   m_Name: chainlink_barbwire-3
   m_TagString: Untagged
@@ -134,6 +135,19 @@ LODGroup:
     renderers:
     - renderer: {fileID: 23000014099749656}
   m_Enabled: 1
+--- !u!65 &1429674967
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000012855196106}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.94, y: 2.02, z: 0.57}
+  m_Center: {x: -0.58, y: 0.92, z: 0}
 --- !u!1 &1000013352661962
 GameObject:
   m_ObjectHideFlags: 0

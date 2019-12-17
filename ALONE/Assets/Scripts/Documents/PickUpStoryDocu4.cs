@@ -24,11 +24,11 @@ public class PickUpStoryDocu4 : MonoBehaviour
         if (other.gameObject.tag == "Player")
         {
             source.PlayOneShot(clip);
-            Destroy(docu, 13);
+            Destroy(docu, 16);
             document.SetActive(true);
             reticle.SetActive(false);
             Deactivate(reticle);
-            Destroy(document, 13);
+            Destroy(document, 16);
             StartCoroutine(Activate(reticle));
         }
     }
@@ -40,7 +40,7 @@ public class PickUpStoryDocu4 : MonoBehaviour
 
     IEnumerator Activate(GameObject g)
     {
-        yield return new WaitForSeconds(12.94f);
+        yield return new WaitForSeconds(15.94f);
         g.SetActive(true);
     }
 }
