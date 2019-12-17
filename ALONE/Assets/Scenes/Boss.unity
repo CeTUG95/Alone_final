@@ -446,7 +446,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 200744148949341bcbf1db8c84fb06aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 10
+  damage: 24
 --- !u!114 &242448499
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -473,7 +473,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 092c4ab0cf8454fb0b5c352abeed535d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HP: 30
+  HP: 400
   clip: {fileID: 8300000, guid: 90baba54270a645c59d7fb24644074a1, type: 3}
 --- !u!195 &242448501
 NavMeshAgent:
@@ -1998,7 +1998,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 092c4ab0cf8454fb0b5c352abeed535d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HP: 30
+  HP: 400
   clip: {fileID: 8300000, guid: aec448d955f5145b296d7a4cbac8040a, type: 3}
 --- !u!114 &439025338
 MonoBehaviour:
@@ -2026,7 +2026,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 200744148949341bcbf1db8c84fb06aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 10
+  damage: 24
 --- !u!136 &439025340
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -2237,7 +2237,12 @@ PrefabInstance:
     - target: {fileID: 4913430202029794947, guid: 2d476ac8ec89b43eab94fc8b92e3df6a,
         type: 3}
       propertyPath: m_StoppingDistance
-      value: 3
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1227495078244359401, guid: 2d476ac8ec89b43eab94fc8b92e3df6a,
+        type: 3}
+      propertyPath: HP
+      value: 100
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 714305701234376069, guid: 2d476ac8ec89b43eab94fc8b92e3df6a, type: 3}
@@ -2687,7 +2692,12 @@ PrefabInstance:
     - target: {fileID: 4913430202029794947, guid: 2d476ac8ec89b43eab94fc8b92e3df6a,
         type: 3}
       propertyPath: m_StoppingDistance
-      value: 3
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1227495078244359401, guid: 2d476ac8ec89b43eab94fc8b92e3df6a,
+        type: 3}
+      propertyPath: HP
+      value: 100
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 714305701234376069, guid: 2d476ac8ec89b43eab94fc8b92e3df6a, type: 3}
@@ -3076,7 +3086,12 @@ PrefabInstance:
     - target: {fileID: 4913430202029794947, guid: 2d476ac8ec89b43eab94fc8b92e3df6a,
         type: 3}
       propertyPath: m_StoppingDistance
-      value: 3
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1227495078244359401, guid: 2d476ac8ec89b43eab94fc8b92e3df6a,
+        type: 3}
+      propertyPath: HP
+      value: 100
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 714305701234376069, guid: 2d476ac8ec89b43eab94fc8b92e3df6a, type: 3}
@@ -4238,7 +4253,12 @@ PrefabInstance:
     - target: {fileID: 4913430202029794947, guid: 2d476ac8ec89b43eab94fc8b92e3df6a,
         type: 3}
       propertyPath: m_StoppingDistance
-      value: 3
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1227495078244359401, guid: 2d476ac8ec89b43eab94fc8b92e3df6a,
+        type: 3}
+      propertyPath: HP
+      value: 100
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 714305701234376069, guid: 2d476ac8ec89b43eab94fc8b92e3df6a, type: 3}
@@ -4538,7 +4558,12 @@ PrefabInstance:
     - target: {fileID: 4913430202029794947, guid: 2d476ac8ec89b43eab94fc8b92e3df6a,
         type: 3}
       propertyPath: m_StoppingDistance
-      value: 3
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1227495078244359401, guid: 2d476ac8ec89b43eab94fc8b92e3df6a,
+        type: 3}
+      propertyPath: HP
+      value: 100
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 714305701234376069, guid: 2d476ac8ec89b43eab94fc8b92e3df6a, type: 3}
@@ -7237,7 +7262,12 @@ PrefabInstance:
     - target: {fileID: 4913430202029794947, guid: 2d476ac8ec89b43eab94fc8b92e3df6a,
         type: 3}
       propertyPath: m_StoppingDistance
-      value: 3
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1227495078244359401, guid: 2d476ac8ec89b43eab94fc8b92e3df6a,
+        type: 3}
+      propertyPath: HP
+      value: 100
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 714305701234376069, guid: 2d476ac8ec89b43eab94fc8b92e3df6a, type: 3}
@@ -7403,7 +7433,12 @@ PrefabInstance:
     - target: {fileID: 4913430202029794947, guid: 2d476ac8ec89b43eab94fc8b92e3df6a,
         type: 3}
       propertyPath: m_StoppingDistance
-      value: 3
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1227495078244359401, guid: 2d476ac8ec89b43eab94fc8b92e3df6a,
+        type: 3}
+      propertyPath: HP
+      value: 100
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 714305701234376069, guid: 2d476ac8ec89b43eab94fc8b92e3df6a, type: 3}
@@ -7755,7 +7790,7 @@ PrefabInstance:
     - target: {fileID: 4913430202029794947, guid: 2d476ac8ec89b43eab94fc8b92e3df6a,
         type: 3}
       propertyPath: m_StoppingDistance
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1392916392534825674, guid: 2d476ac8ec89b43eab94fc8b92e3df6a,
         type: 3}
@@ -7776,6 +7811,11 @@ PrefabInstance:
         type: 3}
       propertyPath: MinDistance
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1227495078244359401, guid: 2d476ac8ec89b43eab94fc8b92e3df6a,
+        type: 3}
+      propertyPath: HP
+      value: 100
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 714305701234376069, guid: 2d476ac8ec89b43eab94fc8b92e3df6a, type: 3}
@@ -10496,7 +10536,12 @@ PrefabInstance:
     - target: {fileID: 4913430202029794947, guid: 2d476ac8ec89b43eab94fc8b92e3df6a,
         type: 3}
       propertyPath: m_StoppingDistance
-      value: 3
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1227495078244359401, guid: 2d476ac8ec89b43eab94fc8b92e3df6a,
+        type: 3}
+      propertyPath: HP
+      value: 100
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 714305701234376069, guid: 2d476ac8ec89b43eab94fc8b92e3df6a, type: 3}
