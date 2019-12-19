@@ -4,11 +4,12 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class DialogueManagerScript : MonoBehaviour
+public class DialogueManager : MonoBehaviour
 {
     public Text dialogueText;
     public Animator animator;
     public Dialogue dialogue;
+
     private Queue<string> sentences;
 
     void Start()
@@ -22,7 +23,7 @@ public class DialogueManagerScript : MonoBehaviour
         animator.SetBool("IsOpen", true);
         sentences.Clear();
 
-        foreach (string sentence in dialogue.sentences)
+        foreach(string sentence in dialogue.sentences)
         {
             sentences.Enqueue(sentence);
         }
@@ -31,7 +32,7 @@ public class DialogueManagerScript : MonoBehaviour
 
     public void DisplayNextSentence()
     {
-        if (sentences.Count == 0)
+        if(sentences.Count == 0)
         {
             EndDialogue();
             return;
@@ -39,22 +40,24 @@ public class DialogueManagerScript : MonoBehaviour
 
         string sentence = sentences.Dequeue();
         StopAllCoroutines();
-        StartCoroutine(TypeSenctence(sentence));
+        StartCoroutine(TypeSentence(sentence));
     }
 
-    IEnumerator TypeSenctence(string sentence)
+    IEnumerator TypeSentence (string sentence)
     {
         dialogueText.text = "";
-        foreach (char letter in sentence.ToCharArray())
+        foreach(char letter in sentence.ToCharArray())
         {
             dialogueText.text += letter;
-            yield return new WaitForSeconds(0.05f);
+            yield return new WaitForSeconds(0.02f);
         }
     }
 
     void EndDialogue()
     {
         animator.SetBool("IsOpen", false);
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(1);
     }
+
+
 }

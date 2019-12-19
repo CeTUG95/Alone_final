@@ -11,7 +11,7 @@ public class MainMenu : MonoBehaviour
 
     void InvokePlay()
     {
-        SceneManager.LoadScene("Tutorial");
+        SceneManager.LoadScene(4);
     }
 
     void InvokeExit()
