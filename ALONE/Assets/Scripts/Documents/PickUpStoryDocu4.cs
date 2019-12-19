@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PickUpStoryDocu4 : MonoBehaviour
 {
-    public GameObject docu;
+    //public GameObject docu;
     public GameObject document;
     public GameObject reticle;
 
@@ -15,7 +15,7 @@ public class PickUpStoryDocu4 : MonoBehaviour
     {
         reticle = GameObject.Find("UI/ReticleCanvas/Reticle");
         document = GameObject.Find("UI/StatsCanvas/AllDocuments/MilitiaLog4");
-        docu = GameObject.FindGameObjectWithTag("StoryDocument4");
+        //docu = GameObject.FindGameObjectWithTag("StoryDocument4");
         source = GetComponent<AudioSource>();
     }
 
@@ -24,23 +24,40 @@ public class PickUpStoryDocu4 : MonoBehaviour
         if (other.gameObject.tag == "Player")
         {
             source.PlayOneShot(clip);
-            Destroy(docu, 16);
             document.SetActive(true);
             reticle.SetActive(false);
             Deactivate(reticle);
-            Destroy(document, 16);
-            StartCoroutine(Activate(reticle));
+        }
+    }
+
+    private void Update()
+    {
+        if (Input.GetButtonDown("Circle"))
+        {
+            Time.timeScale = 1f;
+            Activate(reticle);
+            document.SetActive(false);
+            GameObject.Find("Player").GetComponent<Footsteps>().enabled = true;
+            GameObject.Find("Player").GetComponent<WeaponZoom>().enabled = true;
+            GameObject.Find("M4A1_PBR").GetComponent<Weapon>().enabled = true;
+            GameObject.Find("Rotation").GetComponent<WeaponSwitch>().enabled = true;
+            GameObject.Find("PauseMenuCanvas").GetComponent<PauseMenuLoader>().enabled = true;
         }
     }
 
     void Deactivate(GameObject g)
     {
         g.SetActive(false);
+        Time.timeScale = 0f;
+        GameObject.Find("Player").GetComponent<Footsteps>().enabled = false;
+        GameObject.Find("Player").GetComponent<WeaponZoom>().enabled = false;
+        GameObject.Find("M4A1_PBR").GetComponent<Weapon>().enabled = false;
+        GameObject.Find("Rotation").GetComponent<WeaponSwitch>().enabled = false;
+        GameObject.Find("PauseMenuCanvas").GetComponent<PauseMenuLoader>().enabled = false;
     }
 
-    IEnumerator Activate(GameObject g)
+    void Activate(GameObject g)
     {
-        yield return new WaitForSeconds(15.94f);
         g.SetActive(true);
     }
 }

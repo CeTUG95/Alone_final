@@ -25,6 +25,12 @@ public class DeathUi : MonoBehaviour
         gameOverUi.enabled = true;
         reticle.enabled = false;
         Time.timeScale = 0;
+
+        GameObject.Find("Player").GetComponent<Footsteps>().enabled = false;
+        GameObject.Find("Player").GetComponent<WeaponZoom>().enabled = false;
+        GameObject.Find("Rotation").GetComponent<WeaponSwitch>().enabled = false;
+        GameObject.Find("PauseMenuCanvas").GetComponent<PauseMenuLoader>().enabled = false;
+
         eventSys.SetSelectedGameObject(btn.gameObject);
     }
 

@@ -1233,11 +1233,6 @@ PrefabInstance:
       propertyPath: range
       value: 22.67
       objectReference: {fileID: 0}
-    - target: {fileID: 4913430202029794947, guid: 2d476ac8ec89b43eab94fc8b92e3df6a,
-        type: 3}
-      propertyPath: m_Speed
-      value: 6
-      objectReference: {fileID: 0}
     - target: {fileID: 4913430202029794950, guid: 2d476ac8ec89b43eab94fc8b92e3df6a,
         type: 3}
       propertyPath: damage
@@ -1272,6 +1267,11 @@ PrefabInstance:
         type: 3}
       propertyPath: HP
       value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 4913430202029794947, guid: 2d476ac8ec89b43eab94fc8b92e3df6a,
+        type: 3}
+      propertyPath: m_Speed
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 714305701234376069, guid: 2d476ac8ec89b43eab94fc8b92e3df6a, type: 3}
@@ -2940,11 +2940,6 @@ PrefabInstance:
       propertyPath: range
       value: 22.9
       objectReference: {fileID: 0}
-    - target: {fileID: 4913430202029794947, guid: 2d476ac8ec89b43eab94fc8b92e3df6a,
-        type: 3}
-      propertyPath: m_Speed
-      value: 6
-      objectReference: {fileID: 0}
     - target: {fileID: 4913430202029794950, guid: 2d476ac8ec89b43eab94fc8b92e3df6a,
         type: 3}
       propertyPath: damage
@@ -2979,6 +2974,11 @@ PrefabInstance:
         type: 3}
       propertyPath: HP
       value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 4913430202029794947, guid: 2d476ac8ec89b43eab94fc8b92e3df6a,
+        type: 3}
+      propertyPath: m_Speed
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 714305701234376069, guid: 2d476ac8ec89b43eab94fc8b92e3df6a, type: 3}
@@ -5774,7 +5774,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8cf32806100b447eea264aa4af82e347, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  docu: {fileID: 577498777}
   document: {fileID: 397359194}
   reticle: {fileID: 985568517}
   clip: {fileID: 8300000, guid: 7cd0f23cea8944241beb4ec4a96fe2cc, type: 3}
@@ -6161,11 +6160,6 @@ PrefabInstance:
       propertyPath: range
       value: 24.92
       objectReference: {fileID: 0}
-    - target: {fileID: 4913430202029794947, guid: 2d476ac8ec89b43eab94fc8b92e3df6a,
-        type: 3}
-      propertyPath: m_Speed
-      value: 6
-      objectReference: {fileID: 0}
     - target: {fileID: 4913430202029794950, guid: 2d476ac8ec89b43eab94fc8b92e3df6a,
         type: 3}
       propertyPath: damage
@@ -6200,6 +6194,11 @@ PrefabInstance:
         type: 3}
       propertyPath: HP
       value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 4913430202029794947, guid: 2d476ac8ec89b43eab94fc8b92e3df6a,
+        type: 3}
+      propertyPath: m_Speed
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 714305701234376069, guid: 2d476ac8ec89b43eab94fc8b92e3df6a, type: 3}
@@ -6944,7 +6943,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66f97affce66946bd95ce0a4428480d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  docu: {fileID: 682985958}
   document: {fileID: 1138879166}
   reticle: {fileID: 985568517}
   clip: {fileID: 8300000, guid: 7cd0f23cea8944241beb4ec4a96fe2cc, type: 3}
@@ -7756,11 +7754,6 @@ PrefabInstance:
       propertyPath: range
       value: 22.9
       objectReference: {fileID: 0}
-    - target: {fileID: 4913430202029794947, guid: 2d476ac8ec89b43eab94fc8b92e3df6a,
-        type: 3}
-      propertyPath: m_Speed
-      value: 6
-      objectReference: {fileID: 0}
     - target: {fileID: 4913430202029794950, guid: 2d476ac8ec89b43eab94fc8b92e3df6a,
         type: 3}
       propertyPath: damage
@@ -7795,6 +7788,11 @@ PrefabInstance:
         type: 3}
       propertyPath: HP
       value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 4913430202029794947, guid: 2d476ac8ec89b43eab94fc8b92e3df6a,
+        type: 3}
+      propertyPath: m_Speed
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 714305701234376069, guid: 2d476ac8ec89b43eab94fc8b92e3df6a, type: 3}
@@ -8062,6 +8060,11 @@ PrefabInstance:
       propertyPath: impact
       value: 
       objectReference: {fileID: 212758936}
+    - target: {fileID: 5885507645094262526, guid: c6453f8e1f814744d8b94e5a6d1f9942,
+        type: 3}
+      propertyPath: m_Name
+      value: SpotLight
+      objectReference: {fileID: 0}
     - target: {fileID: 11400004, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
       propertyPath: movementSettings.ForwardSpeed
       value: 9
@@ -10216,11 +10219,6 @@ PrefabInstance:
       propertyPath: range
       value: 39.13
       objectReference: {fileID: 0}
-    - target: {fileID: 4913430202029794947, guid: 2d476ac8ec89b43eab94fc8b92e3df6a,
-        type: 3}
-      propertyPath: m_Speed
-      value: 6
-      objectReference: {fileID: 0}
     - target: {fileID: 4913430202029794950, guid: 2d476ac8ec89b43eab94fc8b92e3df6a,
         type: 3}
       propertyPath: damage
@@ -10255,6 +10253,11 @@ PrefabInstance:
         type: 3}
       propertyPath: HP
       value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 4913430202029794947, guid: 2d476ac8ec89b43eab94fc8b92e3df6a,
+        type: 3}
+      propertyPath: m_Speed
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 714305701234376069, guid: 2d476ac8ec89b43eab94fc8b92e3df6a, type: 3}
@@ -10461,7 +10464,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f286ce9c782fc4bfaa0b24a4ddb05c8f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  docu: {fileID: 1016937016}
   document: {fileID: 141398430}
   reticle: {fileID: 985568517}
   clip: {fileID: 8300000, guid: 7cd0f23cea8944241beb4ec4a96fe2cc, type: 3}
@@ -10969,7 +10971,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1fcd7f5bd726e49f99255f31f910f01c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  docu: {fileID: 1084261212}
   document: {fileID: 1796577236}
   reticle: {fileID: 985568517}
   clip: {fileID: 8300000, guid: 7cd0f23cea8944241beb4ec4a96fe2cc, type: 3}
@@ -13035,11 +13036,6 @@ PrefabInstance:
       propertyPath: range
       value: 25.16
       objectReference: {fileID: 0}
-    - target: {fileID: 4913430202029794947, guid: 2d476ac8ec89b43eab94fc8b92e3df6a,
-        type: 3}
-      propertyPath: m_Speed
-      value: 6
-      objectReference: {fileID: 0}
     - target: {fileID: 4913430202029794950, guid: 2d476ac8ec89b43eab94fc8b92e3df6a,
         type: 3}
       propertyPath: damage
@@ -13074,6 +13070,11 @@ PrefabInstance:
         type: 3}
       propertyPath: HP
       value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 4913430202029794947, guid: 2d476ac8ec89b43eab94fc8b92e3df6a,
+        type: 3}
+      propertyPath: m_Speed
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 714305701234376069, guid: 2d476ac8ec89b43eab94fc8b92e3df6a, type: 3}
@@ -13286,7 +13287,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14bc8947282744f3397cf607b0929659, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  docu: {fileID: 1286727868}
   document: {fileID: 1202973931}
   reticle: {fileID: 985568517}
   clip: {fileID: 8300000, guid: 7cd0f23cea8944241beb4ec4a96fe2cc, type: 3}
@@ -13792,7 +13792,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98e84b5e1d9af444fab9c3509bf0b7de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  docu: {fileID: 1351304875}
   document: {fileID: 1377345386}
   reticle: {fileID: 985568517}
   clip: {fileID: 8300000, guid: 7cd0f23cea8944241beb4ec4a96fe2cc, type: 3}
@@ -15578,7 +15577,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97a22c831b49b4310be438773a7d6d19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  docu: {fileID: 1699886223}
   document: {fileID: 851119316}
   reticle: {fileID: 985568517}
   clip: {fileID: 8300000, guid: 7cd0f23cea8944241beb4ec4a96fe2cc, type: 3}
@@ -18569,11 +18567,6 @@ PrefabInstance:
       propertyPath: range
       value: 45.5
       objectReference: {fileID: 0}
-    - target: {fileID: 4913430202029794947, guid: 2d476ac8ec89b43eab94fc8b92e3df6a,
-        type: 3}
-      propertyPath: m_Speed
-      value: 6
-      objectReference: {fileID: 0}
     - target: {fileID: 4913430202029794950, guid: 2d476ac8ec89b43eab94fc8b92e3df6a,
         type: 3}
       propertyPath: damage
@@ -18608,6 +18601,11 @@ PrefabInstance:
         type: 3}
       propertyPath: HP
       value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 4913430202029794947, guid: 2d476ac8ec89b43eab94fc8b92e3df6a,
+        type: 3}
+      propertyPath: m_Speed
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 714305701234376069, guid: 2d476ac8ec89b43eab94fc8b92e3df6a, type: 3}
