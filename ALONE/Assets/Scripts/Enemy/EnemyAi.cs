@@ -15,6 +15,8 @@ public class EnemyAi : MonoBehaviour
     //
     private AudioSource source;
     [SerializeField] AudioClip clip;
+    //
+    public ParticleSystem particle;
 
     void Start()
     {
@@ -23,6 +25,7 @@ public class EnemyAi : MonoBehaviour
         target = GameObject.Find("Player").transform;
 
         source = GetComponent<AudioSource>();
+        particle.Stop();
     }
 
     void Update()
@@ -44,6 +47,7 @@ public class EnemyAi : MonoBehaviour
         {
             isProvoked = true;
             source.Play();
+            particle.Play();
         }
     }
 

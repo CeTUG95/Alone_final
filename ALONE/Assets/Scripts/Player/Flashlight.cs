@@ -4,6 +4,11 @@ using UnityEngine;
 
 public class Flashlight : MonoBehaviour
 {
+    //
+
+    [SerializeField] Canvas flashlightUI;
+
+    //
 
     Light flashlight;
     bool lightON = false;
@@ -17,6 +22,7 @@ public class Flashlight : MonoBehaviour
         flashlight.enabled = false;
 
         source = GetComponent<AudioSource>();
+        flashlightUI.enabled = true;
     }
 
     void Update()
@@ -28,11 +34,15 @@ public class Flashlight : MonoBehaviour
                 source.Play();
                 flashlight.enabled = true;
                 lightON = true;
+                //
+                flashlightUI.enabled = false;
             } else
             {
                 source.Play();
                 flashlight.enabled = false;
                 lightON = false;
+                //
+                flashlightUI.enabled = true;
             }
             
             

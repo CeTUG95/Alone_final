@@ -13,6 +13,9 @@ public class EnemyHealth : MonoBehaviour
 
     bool isDead = false;
 
+    //
+    public ParticleSystem particle;
+
     private void Start()
     {
         opponentController.GetComponent<OpponentController>().opponentHasAppeared();
@@ -46,5 +49,8 @@ public class EnemyHealth : MonoBehaviour
         opponentController.opponentHasDied();
         gameObject.GetComponent<CapsuleCollider>().enabled = false;
         GetComponent<Animator>().SetTrigger("die");
+
+        //
+        particle.Stop();
     }
 }
