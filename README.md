@@ -45,6 +45,3 @@ Some impressions of the digital prototype:
     <img src="./docs/digital_prototype/inside_house.png"  width="49%" height="49%">
     <img src="./docs/digital_prototype/mainMenu_ueberarbeitet.png"  width="49%" height="49%">
 </p>
-
-Copyright notice:<br/>
-This game was created during my studies at the Beuth University of Applied Sciences Berlin. I do not own the music and sound effects in the game. These are only used to give the game a better atmosphere. I don't want to sell the game and I don't want to publish the game. All rights belong to their respective owners.
