@@ -90,4 +90,9 @@ public class BossAi : MonoBehaviour
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(transform.position, range);
     }
+
+    public bool GetIsProvoked()
+    {
+        return isProvoked;
+    }
 }

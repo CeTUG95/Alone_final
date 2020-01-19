@@ -11,10 +11,14 @@ public class BossHealth : MonoBehaviour
     //
     private AudioSource source;
     [SerializeField] AudioClip clip;
+    //
+    [SerializeField] GameObject portal;
 
     private void Start()
     {
         source = GetComponent<AudioSource>();
+        //
+        portal.SetActive(false);
     }
 
     public bool IsDead()
@@ -42,5 +46,7 @@ public class BossHealth : MonoBehaviour
         isDead = true;
         gameObject.GetComponent<CapsuleCollider>().enabled = false;
         GetComponent<Animator>().SetTrigger("die");
+        portal.SetActive(true);
     }
+
 }
