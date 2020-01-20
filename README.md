@@ -41,4 +41,22 @@ Some impressions of the digital prototype:
     <img src="./docs/digital_prototype/snow_level.png"  width="49%" height="49%">
     <img src="./docs/digital_prototype/Level1_prototyp.png"  width="49%" height="49%">
     <img src="./docs/digital_prototype/inside_house.png"  width="49%" height="49%">
+    <img src="./docs/digital_prototype/new_bridge.png"  width="49%" height="49%">
+    <img src="./docs/digital_prototype/new_street.png"  width="49%" height="49%">
+    <img src="./docs/digital_prototype/press_square.png"  width="49%" height="49%">
+    <img src="./docs/digital_prototype/trash_can.png"  width="49%" height="49%">
+    <img src="./docs/digital_prototype/.png"  width="49%" height="49%">
+    <img src="./docs/digital_prototype/.png"  width="49%" height="49%">
+    <img src="./docs/digital_prototype/.png"  width="49%" height="49%">
+    <img src="./docs/digital_prototype/.png"  width="49%" height="49%">
+    <img src="./docs/digital_prototype/.png"  width="49%" height="49%">
+    <img src="./docs/digital_prototype/.png"  width="49%" height="49%">
+    <img src="./docs/digital_prototype/.png"  width="49%" height="49%">
+    <img src="./docs/digital_prototype/.png"  width="49%" height="49%">
+    <img src="./docs/digital_prototype/.png"  width="49%" height="49%">
+    <img src="./docs/digital_prototype/.png"  width="49%" height="49%">
+    <img src="./docs/digital_prototype/.png"  width="49%" height="49%">
+    <img src="./docs/digital_prototype/.png"  width="49%" height="49%">
+    <img src="./docs/digital_prototype/.png"  width="49%" height="49%">
+    
 </p>
