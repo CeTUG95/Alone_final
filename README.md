@@ -45,18 +45,18 @@ Some impressions of the digital prototype:
     <img src="./docs/digital_prototype/new_street.png"  width="49%" height="49%">
     <img src="./docs/digital_prototype/press_square.png"  width="49%" height="49%">
     <img src="./docs/digital_prototype/trash_can.png"  width="49%" height="49%">
-    <img src="./docs/digital_prototype/.png"  width="49%" height="49%">
-    <img src="./docs/digital_prototype/.png"  width="49%" height="49%">
-    <img src="./docs/digital_prototype/.png"  width="49%" height="49%">
-    <img src="./docs/digital_prototype/.png"  width="49%" height="49%">
-    <img src="./docs/digital_prototype/.png"  width="49%" height="49%">
-    <img src="./docs/digital_prototype/.png"  width="49%" height="49%">
-    <img src="./docs/digital_prototype/.png"  width="49%" height="49%">
-    <img src="./docs/digital_prototype/.png"  width="49%" height="49%">
-    <img src="./docs/digital_prototype/.png"  width="49%" height="49%">
-    <img src="./docs/digital_prototype/.png"  width="49%" height="49%">
-    <img src="./docs/digital_prototype/.png"  width="49%" height="49%">
-    <img src="./docs/digital_prototype/.png"  width="49%" height="49%">
+    <img src="./docs/digital_prototype/burn.png"  width="49%" height="49%">
+    <img src="./docs/digital_prototype/running_burn.png"  width="49%" height="49%">
+    <img src="./docs/digital_prototype/boss_level1.png"  width="49%" height="49%">
+    <img src="./docs/digital_prototype/boss_level2.png"  width="49%" height="49%">
+    <img src="./docs/digital_prototype/chains.png"  width="49%" height="49%">
+    <img src="./docs/digital_prototype/portal.png"  width="49%" height="49%">
+    <img src="./docs/digital_prototype/shield1.png"  width="49%" height="49%">
+    <img src="./docs/digital_prototype/shield2.png"  width="49%" height="49%">
+    <img src="./docs/digital_prototype/skull_carpet1.png"  width="49%" height="49%">
+    <img src="./docs/digital_prototype/skull_carpet2.png"  width="49%" height="49%">
+    <img src="./docs/digital_prototype/candle_holder1.png"  width="49%" height="49%">
+    <img src="./docs/digital_prototype/candle_holder2.png"  width="49%" height="49%">
     <img src="./docs/digital_prototype/.png"  width="49%" height="49%">
     
 </p>
