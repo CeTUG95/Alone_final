@@ -58,7 +58,7 @@ public class PlayerHealth : MonoBehaviour
             source.PlayOneShot(clip);
             GetComponent<DeathUi>().HandleDeath();
 
-            stopPlaying.SetActive(false);
+            //stopPlaying.SetActive(false);
         }
     }
 }
