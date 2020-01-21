@@ -17,6 +17,8 @@ TagManager:
   - StoryDocument5
   - StoryDocument6
   - StoryDocument7
+  - Group
+  - BossMusic
   layers:
   - Default
   - TransparentFX

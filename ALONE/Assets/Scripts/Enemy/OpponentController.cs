@@ -17,10 +17,6 @@ public class OpponentController : MonoBehaviour
     public EnemyAi ai11;
     public EnemyAi ai12;
     public EnemyAi ai13;
-    public EnemyAi ai14;
-    public EnemyAi ai15;
-    public EnemyAi ai16;
-    public EnemyAi ai17;
 
 
     private AudioSource audioSource;
@@ -63,12 +59,8 @@ public class OpponentController : MonoBehaviour
         bool notProvoked11 = ai11.GetIsProvoked();
         bool notProvoked12 = ai12.GetIsProvoked();
         bool notProvoked13 = ai13.GetIsProvoked();
-        bool notProvoked14 = ai14.GetIsProvoked();
-        bool notProvoked15 = ai15.GetIsProvoked();
-        bool notProvoked16 = ai16.GetIsProvoked();
-        bool notProvoked17 = ai17.GetIsProvoked();
 
-        if (!notProvoked && !notProvoked2 && !notProvoked3 && !notProvoked4 && !notProvoked5 && !notProvoked6 && !notProvoked7 && !notProvoked8 && !notProvoked9 && !notProvoked10 && !notProvoked11 && !notProvoked12 && !notProvoked13 && !notProvoked14 && !notProvoked15 && !notProvoked16 && !notProvoked17)
+        if (!notProvoked && !notProvoked2 && !notProvoked3 && !notProvoked4 && !notProvoked5 && !notProvoked6 && !notProvoked7 && !notProvoked8 && !notProvoked9 && !notProvoked10 && !notProvoked11 && !notProvoked12 && !notProvoked13)
         {
             audioSource.Play();
 

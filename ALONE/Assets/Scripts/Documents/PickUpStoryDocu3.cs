@@ -39,7 +39,7 @@ public class PickUpStoryDocu3 : MonoBehaviour
             document.SetActive(false);
             GameObject.Find("Player").GetComponent<Footsteps>().enabled = true;
             GameObject.Find("Player").GetComponent<WeaponZoom>().enabled = true;
-            GameObject.Find("M4A1_PBR").GetComponent<Weapon>().enabled = true;
+            // GameObject.Find("M4A1_PBR").GetComponent<Weapon>().enabled = true;
             GameObject.Find("Rotation").GetComponent<WeaponSwitch>().enabled = true;
             GameObject.Find("PauseMenuCanvas").GetComponent<PauseMenuLoader>().enabled = true;
         }
@@ -51,7 +51,7 @@ public class PickUpStoryDocu3 : MonoBehaviour
         Time.timeScale = 0f;
         GameObject.Find("Player").GetComponent<Footsteps>().enabled = false;
         GameObject.Find("Player").GetComponent<WeaponZoom>().enabled = false;
-        GameObject.Find("M4A1_PBR").GetComponent<Weapon>().enabled = false;
+        // GameObject.Find("M4A1_PBR").GetComponent<Weapon>().enabled = false;
         GameObject.Find("Rotation").GetComponent<WeaponSwitch>().enabled = false;
         GameObject.Find("PauseMenuCanvas").GetComponent<PauseMenuLoader>().enabled = false;
     }

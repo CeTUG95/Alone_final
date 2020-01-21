@@ -6,7 +6,7 @@ public class BossHealth : MonoBehaviour
 {
     [SerializeField] float HP;
 
-    bool isDead = false;
+    public bool isDead = false;
 
     //
     private AudioSource source;
@@ -47,6 +47,11 @@ public class BossHealth : MonoBehaviour
         gameObject.GetComponent<CapsuleCollider>().enabled = false;
         GetComponent<Animator>().SetTrigger("die");
         portal.SetActive(true);
+    }
+
+    public bool GetIsDead()
+    {
+        return isDead;
     }
 
 }
