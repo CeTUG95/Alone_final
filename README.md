@@ -1,8 +1,8 @@
 # PROJECT ALONE
 
-As part of my studies in the sixth semester at the Beuth University of Applied Sciences, three classmates and I are now developing a 3D first person shooter called <strong>ALONE</strong>.
+As part of my studies in the sixth semester at the Beuth University of Applied Sciences Berlin, three classmates and I developed our biggest project called <strong>ALONE<strong> with the gaming engine Unity in C#.
 <br/><br/>
-We have three months for the developing and <strong>my part is to program the enemies and player movement, health and attack, as well as the player's shooting - plus weapon recoil, weapon switching and ammunition boxes. Furthermore, I am responsible for the particle system like the snow, fog, muzzle flash and hit effects and I did also the main menu and implemented sound effects. In addition, I am also the Team Lead in our group</strong>.
+We had three months for the developing and <strong>my part is to program the enemies and player movement, health and attack, as well as the player's shooting - plus weapon recoil, weapon switching and ammunition boxes. Furthermore, I am responsible for the particle system like the snow, fog, muzzle flash and hit effects and I did also the main menu and implemented sound effects. In addition, I am also the Team Lead in our group</strong>.
 <br/><br/>
 <strong>Check out my Twitter-Account where I update my work on this game and where you also can find come short clips I did of the game and show how it looks like in the moment</strong>.
 <br/><br/>
